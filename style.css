@@ -8,21 +8,26 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 
-footer {
-    color: black;
+.wrapper {
+width: auto;
+background-color: green;
+justify-content: space-between;
+cursor: pointer;
 }
-
+ 
+*/
 .container {
     color:brown;
-    background-color: pink;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     border-radius: 3%;
-    justify-content: center;
+    align-items: center;
     padding: auto;
 }
 
-.weekDays {
+*/
+
+footer {
     color: black;
     background-color: aliceblue;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -30,3 +35,12 @@ footer {
     border-color: blue;
     display: flex;  
 }
+
+.weekDays ul {
+    display: grid;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: center;
+}
+
+/*
