@@ -22,10 +22,6 @@
         </header>
             <p>August, 2024</p>
 
-            <div id="my">
-                <p id="demo">hey</p>
-            </div>
-
             <table>
                 <colgroup span="1" class="sunday"></colgroup>               
                 <th>
@@ -41,14 +37,17 @@
                 </th>
 
                 <tr>
+                    <div class="btnDays">
                     <td>
-                        <button onclick="myFunction()">28</button>
+                        <button onclick="displayText1()">28</button>
+                        <p id="Aug28" style="display: none;">hello</p>
                     </td>
 
                     <td>
-                        <button onclick="myFunction()">29</button>
+                        <button onclick="displayText2()">29</button>
+                        <p id="Aug29" style="display: none;">bye</p>
                     </td>
-                        
+                    </div>    
                 </tr>
 
             </table>

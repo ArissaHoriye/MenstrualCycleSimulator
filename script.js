@@ -1,14 +1,19 @@
-function idPanel(){
-    var custDiv = document.getElementById("cust");
-    if (custDiv.style.display === "none"){
-        custDiv.style.display = "block";
+function displayText1() {
+    var x = document.getElementById("Aug28");
+    if(x.style.display === "none"){
+        x.style.display = "block";
     }
     else {
-        custDiv.style.display = "none"
-    }
-    
+        x.style.display = "none";
+    }         
 }
 
-function myFunction() {
-    
+function displayText2() {
+    var x = document.getElementById("Aug29");
+    if(x.style.display === "none"){
+        x.style.display = "block";
+    }
+    else {
+        x.style.display = "none";
+    }   
 }

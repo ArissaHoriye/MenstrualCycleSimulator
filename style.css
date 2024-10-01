@@ -28,8 +28,6 @@ cursor: pointer;
     padding: auto;
 }
 
-
-
 footer {
     color: black;
     background-color: aliceblue;
@@ -39,12 +37,10 @@ footer {
     display: flex;  
 }
 
-.weekDays ul {
-    display: grid;
-    flex-wrap: wrap;
-    list-style: none;
-    text-align: center;
+#btnDays {
+    background-color: bisque;
 }
+
 
 
 
