@@ -37,8 +37,12 @@ footer {
     display: flex;  
 }
 
-#btnDays {
-    background-color: bisque;
+.modal {
+    background-color: olive;
+}
+
+.modal-content {
+    background-color: orange;
 }
 
 
