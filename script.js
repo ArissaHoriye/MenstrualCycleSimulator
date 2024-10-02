@@ -276,7 +276,6 @@ window.onclick = function(event) {
     }
 }
 
-/*
 //18 de Agosto
 var modal = document.getElementById("myModal18");
 var btn = document.getElementById("myBtn18");
@@ -500,4 +499,4 @@ window.onclick = function(event) {
         modal.style.display = "none";
     }
 }
-*/
+
