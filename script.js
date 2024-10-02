@@ -2,15 +2,9 @@
 var modal = document.getElementById("myModal");
 //GET THE BUTTON (OPENS THE MODAL)
 var btn = document.getElementById("myBtn");
-//GET THE SPAN (CLOSES THE MODAL)
-var span = document.getElementsByClassName("close")[0];
 //CLICK THE BUTTON -> OPEN THE MODAL
 btn.onclick = function() {
     modal.style.display = "block";
-}
-//CLICK THE SPAN 'x' -> CLOSE MODAL
-span.onclick = function() {
-    modal.style.display = "none";
 }
 //CLICK OUTSIDE MODAL 
 window.onclick = function(event) {
@@ -20,21 +14,18 @@ window.onclick = function(event) {
 }
 
 //2 de Agosto
-var modal = document.getElementById("myModal2");
-var btn = document.getElementById("myBtn2");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
+var modal2 = document.getElementById("myModal2");
+var btn2 = document.getElementById("myBtn2");
+btn2.onclick = function() {
+    modal2.style.display = "block";
 }
 window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
+    if (event.target == modal2) {
+        modal2.style.display = "none";
     }
 }
 
+/*
 //3 de Agosto
 var modal = document.getElementById("myModal3");
 var btn = document.getElementById("myBtn3");
@@ -500,3 +491,4 @@ window.onclick = function(event) {
     }
 }
 
+*/
