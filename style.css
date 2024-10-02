@@ -1,47 +1,55 @@
 h1 {
-    color:blueviolet;
+    color: mistyrose;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: deeppink;
+    border-radius: 5%;
+    margin: 15px;
+    padding: 5px;
+}
+
+h2 {
+    color: mistyrose;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: paleturquoise;
+    border-radius: 5%;
+    margin: 15px;
+    padding: 5px;
+}
+
+button {
+    background-color: hotpink;
+    color: mistyrose;
+    border: none;
+    text-align: center;
+    display: inline-block;
+    transition-duration: 0.2s;
+    cursor: pointer;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100%;
+    height: 100%;
 }
 
 body {
-    color: aqua;
+    color: deeppink;
+    background-color: floralwhite;
     font-family: 'Courier New', Courier, monospace;
-    margin: 5 auto;
-    min-width: 100%;
-    max-width: 400px;
-}
-
-.wrapper {
-width: auto;
-background-color: green;
-justify-content: space-between;
-cursor: pointer;
-}
- 
-.sunday {
-    background-color: gray;
+    min-width: fit-content;
+    max-height: fit-content;
+    margin: 15px;
 }
 
 .July {
-    background-color: blanchedalmond;
-}
-
-.container {
-    color:brown;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    display: flex;
-    border-radius: 3%;
-    align-items: center;
-    padding: auto;
+    background-color: mistyrose;
+    width: -100px;
 }
 
 footer {
-    color: black;
-    background-color: aliceblue;
+    color: deeppink;
+    background-color:lightpink;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    margin: 2%;
-    border-color: blue;
-    display: flex;  
+    display: block;  
+    border-radius: 5%;
+    margin: 10px;
 }
 
 .modal {
@@ -78,7 +86,7 @@ footer {
 .modal-header {
     padding: auto;
     background-color: paleturquoise;
-    color: yellow;
+    color: mistyrose;
 }
 
 .modal-body {
@@ -88,7 +96,12 @@ footer {
 .modal-footer {
     padding: auto;
     background-color: paleturquoise;
-    color: yellow;
+    color: mistyrose;
+}
+
+.calendar {
+    background-color: paleturquoise;
+    border: solid;
 }
 
 

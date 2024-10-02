@@ -6,12 +6,6 @@ var btn = document.getElementById("myBtn");
 btn.onclick = function() {
     modal.style.display = "block";
 }
-//CLICK OUTSIDE MODAL 
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
 
 //2 de Agosto
 var modal2 = document.getElementById("myModal2");
@@ -19,476 +13,304 @@ var btn2 = document.getElementById("myBtn2");
 btn2.onclick = function() {
     modal2.style.display = "block";
 }
-window.onclick = function(event) {
-    if (event.target == modal2) {
-        modal2.style.display = "none";
-    }
-}
 
-/*
+
 //3 de Agosto
-var modal = document.getElementById("myModal3");
-var btn = document.getElementById("myBtn3");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal3 = document.getElementById("myModal3");
+var btn3 = document.getElementById("myBtn3");
+btn3.onclick = function() {
+    modal3.style.display = "block";
 }
 
 //4 de Agosto
-var modal = document.getElementById("myModal4");
-var btn = document.getElementById("myBtn4");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
+var modal4 = document.getElementById("myModal4");
+var btn4 = document.getElementById("myBtn4");
+btn4.onclick = function() {
+    modal4.style.display = "block";
 }
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-
 
 //5 de Agosto
-var modal = document.getElementById("myModal5");
-var btn = document.getElementById("myBtn5");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal5 = document.getElementById("myModal5");
+var btn5 = document.getElementById("myBtn5");
+btn5.onclick = function() {
+    modal5.style.display = "block";
 }
 
 //6 de Agosto
-var modal = document.getElementById("myModal6");
-var btn = document.getElementById("myBtn6");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal6 = document.getElementById("myModal6");
+var btn6 = document.getElementById("myBtn6");
+btn6.onclick = function() {
+    modal6.style.display = "block";
 }
 
 //7 de Agosto
-var modal = document.getElementById("myModal7");
-var btn = document.getElementById("myBtn7");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal7 = document.getElementById("myModal7");
+var btn7 = document.getElementById("myBtn7");
+btn7.onclick = function() {
+    modal7.style.display = "block";
 }
 
 //8 de Agosto
-var modal = document.getElementById("myModal8");
-var btn = document.getElementById("myBtn8");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal8 = document.getElementById("myModal8");
+var btn8 = document.getElementById("myBtn8");
+btn8.onclick = function() {
+    modal8.style.display = "block";
 }
 
 //9 de Agosto
-var modal = document.getElementById("myModal9");
-var btn = document.getElementById("myBtn9");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal9 = document.getElementById("myModal9");
+var btn9 = document.getElementById("myBtn9");
+btn9.onclick = function() {
+    modal9.style.display = "block";
 }
 
 //10 de Agosto
-var modal = document.getElementById("myModal10");
-var btn = document.getElementById("myBtn10");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal10 = document.getElementById("myModal10");
+var btn10 = document.getElementById("myBtn10");
+btn10.onclick = function() {
+    modal10.style.display = "block";
 }
 
 //11 de Agosto
-var modal = document.getElementById("myModal11");
-var btn = document.getElementById("myBtn11");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal11 = document.getElementById("myModal11");
+var btn11 = document.getElementById("myBtn11");
+btn11.onclick = function() {
+    modal11.style.display = "block";
 }
 
 //12 de Agosto
-var modal = document.getElementById("myModal12");
-var btn = document.getElementById("myBtn12");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal12 = document.getElementById("myModal12");
+var btn12 = document.getElementById("myBtn12");
+btn12.onclick = function() {
+    modal12.style.display = "block";
 }
 
 //13 de Agosto
-var modal = document.getElementById("myModal13");
-var btn = document.getElementById("myBtn13");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal13 = document.getElementById("myModal13");
+var btn13 = document.getElementById("myBtn13");
+btn13.onclick = function() {
+    modal13.style.display = "block";
 }
 
 //14 de Agosto
-var modal = document.getElementById("myModal14");
-var btn = document.getElementById("myBtn14");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal14 = document.getElementById("myModal14");
+var btn14 = document.getElementById("myBtn14");
+btn14.onclick = function() {
+    modal14.style.display = "block";
 }
 
 //15 de Agosto
-var modal = document.getElementById("myModal15");
-var btn = document.getElementById("myBtn15");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal15 = document.getElementById("myModal15");
+var btn15 = document.getElementById("myBtn15");
+btn15.onclick = function() {
+    modal15.style.display = "block";
 }
 
 //16 de Agosto
-var modal = document.getElementById("myModal16");
-var btn = document.getElementById("myBtn16");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal16 = document.getElementById("myModal16");
+var btn16 = document.getElementById("myBtn16");
+btn16.onclick = function() {
+    modal16.style.display = "block";
 }
 
 //17 de Agosto
-var modal = document.getElementById("myModal17");
-var btn = document.getElementById("myBtn17");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal17 = document.getElementById("myModal17");
+var btn17 = document.getElementById("myBtn17");
+btn17.onclick = function() {
+    modal17.style.display = "block";
 }
 
 //18 de Agosto
-var modal = document.getElementById("myModal18");
-var btn = document.getElementById("myBtn18");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal18 = document.getElementById("myModal18");
+var btn18 = document.getElementById("myBtn18");
+btn18.onclick = function() {
+    modal18.style.display = "block";
 }
 
 //19 de Agosto
-var modal = document.getElementById("myModal19");
-var btn = document.getElementById("myBtn19");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal19 = document.getElementById("myModal19");
+var btn19 = document.getElementById("myBtn19");
+btn19.onclick = function() {
+    modal19.style.display = "block";
 }
 
 //20 de Agosto
-var modal = document.getElementById("myModal20");
-var btn = document.getElementById("myBtn20");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal20 = document.getElementById("myModal20");
+var btn20 = document.getElementById("myBtn20");
+btn20.onclick = function() {
+    modal20.style.display = "block";
 }
 
 //21 de Agosto
-var modal = document.getElementById("myModal21");
-var btn = document.getElementById("myBtn21");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal21 = document.getElementById("myModal21");
+var btn21 = document.getElementById("myBtn21");
+btn21.onclick = function() {
+    modal21.style.display = "block";
 }
 
 //22 de Agosto
-var modal = document.getElementById("myModal22");
-var btn = document.getElementById("myBtn22");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal22 = document.getElementById("myModal22");
+var btn22 = document.getElementById("myBtn22");
+btn22.onclick = function() {
+    modal22.style.display = "block";
 }
 
 //23 de Agosto
-var modal = document.getElementById("myModal23");
-var btn = document.getElementById("myBtn23");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal23 = document.getElementById("myModal23");
+var btn23 = document.getElementById("myBtn23");
+btn23.onclick = function() {
+    modal23.style.display = "block";
 }
 
 //24 de Agosto
-var modal = document.getElementById("myModal24");
-var btn = document.getElementById("myBtn24");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal24 = document.getElementById("myModal24");
+var btn24 = document.getElementById("myBtn24");
+btn24.onclick = function() {
+    modal24.style.display = "block";
 }
 
 //25 de Agosto
-var modal = document.getElementById("myModal25");
-var btn = document.getElementById("myBtn25");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal25 = document.getElementById("myModal25");
+var btn25 = document.getElementById("myBtn25");
+btn25.onclick = function() {
+    modal25.style.display = "block";
 }
 
 //26 de Agosto
-var modal = document.getElementById("myModal26");
-var btn = document.getElementById("myBtn26");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal26 = document.getElementById("myModal26");
+var btn26 = document.getElementById("myBtn26");
+btn26.onclick = function() {
+    modal26.style.display = "block";
 }
 
 //27 de Agosto
-var modal = document.getElementById("myModal27");
-var btn = document.getElementById("myBtn27");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal27 = document.getElementById("myModal27");
+var btn27 = document.getElementById("myBtn27");
+btn27.onclick = function() {
+    modal27.style.display = "block";
 }
 
 //28 de Agosto
-var modal = document.getElementById("myModal28");
-var btn = document.getElementById("myBtn28");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal28 = document.getElementById("myModal28");
+var btn28 = document.getElementById("myBtn28");
+btn28.onclick = function() {
+    modal28.style.display = "block";
 }
 
 //29 de Agosto
-var modal = document.getElementById("myModal29");
-var btn = document.getElementById("myBtn29");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal29 = document.getElementById("myModal29");
+var btn29 = document.getElementById("myBtn29");
+btn29.onclick = function() {
+    modal29.style.display = "block";
 }
 
 //30 de Agosto
-var modal = document.getElementById("myModal30");
-var btn = document.getElementById("myBtn30");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
-}
-span.onclick = function() {
-    modal.style.display = "none";
-}
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+var modal30 = document.getElementById("myModal30");
+var btn30 = document.getElementById("myBtn30");
+btn30.onclick = function() {
+    modal30.style.display = "block";
 }
 
 //31 de Agosto
-var modal = document.getElementById("myModal31");
-var btn = document.getElementById("myBtn31");
-var span = document.getElementsByClassName("close")[0];
-btn.onclick = function() {
-    modal.style.display = "block";
+var modal31 = document.getElementById("myModal31");
+var btn31 = document.getElementById("myBtn31");
+btn31.onclick = function() {
+    modal31.style.display = "block";
 }
-span.onclick = function() {
-    modal.style.display = "none";
-}
+
+//CLICK OUTSIDE MODAL 
 window.onclick = function(event) {
     if (event.target == modal) {
         modal.style.display = "none";
     }
+    else if (event.target == modal2) {
+        modal2.style.display = "none";
+    }
+    else if (event.target == modal3) {
+        modal3.style.display = "none";
+    }
+    else if (event.target == modal4) {
+        modal4.style.display = "none";
+    }
+    else if (event.target == modal5) {
+        modal5.style.display = "none";
+    }
+    else if (event.target == modal6) {
+        modal6.style.display = "none";
+    }
+    else if (event.target == modal7) {
+        modal7.style.display = "none";
+    }
+    else if (event.target == modal8) {
+        modal8.style.display = "none";
+    }
+    else if (event.target == modal9) {
+        modal9.style.display = "none";
+    }
+    else if (event.target == modal10) {
+        modal10.style.display = "none";
+    }
+    else if (event.target == modal11) {
+        modal11.style.display = "none";
+    }
+    else if (event.target == modal12) {
+        modal12.style.display = "none";
+    }
+    else if (event.target == modal13) {
+        modal13.style.display = "none";
+    }
+    else if (event.target == modal14) {
+        modal14.style.display = "none";
+    }
+    else if (event.target == modal15) {
+        modal15.style.display = "none";
+    }
+    else if (event.target == modal16) {
+        modal16.style.display = "none";
+    }
+    else if (event.target == modal17) {
+        modal17.style.display = "none";
+    }
+    else if (event.target == modal18) {
+        modal18.style.display = "none";
+    }
+    else if (event.target == modal19) {
+        modal19.style.display = "none";
+    }
+    else if (event.target == modal20) {
+        modal20.style.display = "none";
+    }
+    else if (event.target == modal21) {
+        modal21.style.display = "none";
+    }
+    else if (event.target == modal22) {
+        modal22.style.display = "none";
+    }
+    else if (event.target == modal23) {
+        modal23.style.display = "none";
+    }
+    else if (event.target == modal24) {
+        modal24.style.display = "none";
+    }
+    else if (event.target == modal25) {
+        modal25.style.display = "none";
+    }
+    else if (event.target == modal26) {
+        modal26.style.display = "none";
+    }
+    else if (event.target == modal27) {
+        modal27.style.display = "none";
+    }
+    else if (event.target == modal28) {
+        modal28.style.display = "none";
+    }
+    else if (event.target == modal29) {
+        modal29.style.display = "none";
+    }
+    else if (event.target == modal30) {
+        modal30.style.display = "none";
+    }
+    else if (event.target == modal31) {
+        modal31.style.display = "none";
+    }
 }
-
-*/
