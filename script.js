@@ -218,99 +218,20 @@ btn31.onclick = function() {
     modal31.style.display = "block";
 }
 
-//CLICK OUTSIDE MODAL 
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-    else if (event.target == modal2) {
-        modal2.style.display = "none";
-    }
-    else if (event.target == modal3) {
-        modal3.style.display = "none";
-    }
-    else if (event.target == modal4) {
-        modal4.style.display = "none";
-    }
-    else if (event.target == modal5) {
-        modal5.style.display = "none";
-    }
-    else if (event.target == modal6) {
-        modal6.style.display = "none";
-    }
-    else if (event.target == modal7) {
-        modal7.style.display = "none";
-    }
-    else if (event.target == modal8) {
-        modal8.style.display = "none";
-    }
-    else if (event.target == modal9) {
-        modal9.style.display = "none";
-    }
-    else if (event.target == modal10) {
-        modal10.style.display = "none";
-    }
-    else if (event.target == modal11) {
-        modal11.style.display = "none";
-    }
-    else if (event.target == modal12) {
-        modal12.style.display = "none";
-    }
-    else if (event.target == modal13) {
-        modal13.style.display = "none";
-    }
-    else if (event.target == modal14) {
-        modal14.style.display = "none";
-    }
-    else if (event.target == modal15) {
-        modal15.style.display = "none";
-    }
-    else if (event.target == modal16) {
-        modal16.style.display = "none";
-    }
-    else if (event.target == modal17) {
-        modal17.style.display = "none";
-    }
-    else if (event.target == modal18) {
-        modal18.style.display = "none";
-    }
-    else if (event.target == modal19) {
-        modal19.style.display = "none";
-    }
-    else if (event.target == modal20) {
-        modal20.style.display = "none";
-    }
-    else if (event.target == modal21) {
-        modal21.style.display = "none";
-    }
-    else if (event.target == modal22) {
-        modal22.style.display = "none";
-    }
-    else if (event.target == modal23) {
-        modal23.style.display = "none";
-    }
-    else if (event.target == modal24) {
-        modal24.style.display = "none";
-    }
-    else if (event.target == modal25) {
-        modal25.style.display = "none";
-    }
-    else if (event.target == modal26) {
-        modal26.style.display = "none";
-    }
-    else if (event.target == modal27) {
-        modal27.style.display = "none";
-    }
-    else if (event.target == modal28) {
-        modal28.style.display = "none";
-    }
-    else if (event.target == modal29) {
-        modal29.style.display = "none";
-    }
-    else if (event.target == modal30) {
-        modal30.style.display = "none";
-    }
-    else if (event.target == modal31) {
-        modal31.style.display = "none";
+var modalAll = [modal, modal2, modal3, modal4, modal5, modal6, modal7, modal8, modal9, modal10, 
+                modal11, modal12, modal13, modal14, modal15, modal16, modal17, modal18, modal19,
+                modal20, modal21, modal22, modal23, modal24, modal25, modal26, modal27, modal28,
+                modal29, modal30, modal31];
+
+var btnAll = [btn, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn10, btn11, btn12, btn13, 
+            btn14, btn15, btn16, btn17, btn18, btn19, btn20, btn21, btn22, btn23, btn24, btn25,
+            btn26, btn27, btn28, btn29, btn30, btn31];
+
+
+window.onclick = function(event) {                
+    for (var i=0; i<modalAll.length; i+=1) {
+        if (event.target == modalAll[i]) {
+            modalAll[i].style.display = "none";
+        }
     }
 }
