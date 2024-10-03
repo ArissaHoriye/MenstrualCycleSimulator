@@ -1,3 +1,12 @@
+body {
+    color: deeppink;
+    background-color: floralwhite;
+    font-family: 'Courier New', Courier, monospace;
+    min-width: fit-content;
+    max-height: fit-content;
+    margin: 15px;
+}
+
 h1 {
     color: mistyrose;
     font-family: Arial, Helvetica, sans-serif;
@@ -8,7 +17,7 @@ h1 {
 }
 
 h2 {
-    color: mistyrose;
+    color: deeppink;
     font-family: Arial, Helvetica, sans-serif;
     background-color: paleturquoise;
     border-radius: 5%;
@@ -17,8 +26,8 @@ h2 {
 }
 
 button {
-    background-color: hotpink;
-    color: mistyrose;
+    background-color: lightskyblue;
+    color: deeppink;
     border: none;
     text-align: center;
     display: inline-block;
@@ -27,20 +36,7 @@ button {
     font-family: 'Courier New', Courier, monospace;
     width: 100%;
     height: 100%;
-}
-
-body {
-    color: deeppink;
-    background-color: floralwhite;
-    font-family: 'Courier New', Courier, monospace;
-    min-width: fit-content;
-    max-height: fit-content;
-    margin: 15px;
-}
-
-.July {
-    background-color: mistyrose;
-    width: -100px;
+    border-radius: 5px;
 }
 
 footer {
@@ -62,7 +58,7 @@ footer {
     height: 100%;
     overflow: auto;
     background-color: white;
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.2); 
 }
 
 .modal-content {
@@ -70,17 +66,6 @@ footer {
     bottom: 0;
     background-color: plum;
     width: 100%;
-}
-
-.close {
-  color: black; 
-  float:right;
-}
-
-.close:hover,
-.close:focus { 
-    text-decoration: none;
-    cursor: pointer;
 }
 
 .modal-header {
@@ -91,17 +76,20 @@ footer {
 
 .modal-body {
     padding: auto;
+    margin-left: 15px;
 }
 
 .modal-footer {
     padding: auto;
-    background-color: paleturquoise;
-    color: mistyrose;
+    color: black;
+    margin-left: 15px;
 }
 
 .calendar {
     background-color: paleturquoise;
     border: solid;
+    border-radius: 5px;
+    margin: 15px;
 }
 
 

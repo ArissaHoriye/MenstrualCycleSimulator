@@ -14,7 +14,6 @@ btn2.onclick = function() {
     modal2.style.display = "block";
 }
 
-
 //3 de Agosto
 var modal3 = document.getElementById("myModal3");
 var btn3 = document.getElementById("myBtn3");
@@ -218,15 +217,11 @@ btn31.onclick = function() {
     modal31.style.display = "block";
 }
 
+//window onclick => none
 var modalAll = [modal, modal2, modal3, modal4, modal5, modal6, modal7, modal8, modal9, modal10, 
                 modal11, modal12, modal13, modal14, modal15, modal16, modal17, modal18, modal19,
                 modal20, modal21, modal22, modal23, modal24, modal25, modal26, modal27, modal28,
                 modal29, modal30, modal31];
-
-var btnAll = [btn, btn2, btn3, btn4, btn5, btn6, btn7, btn8, btn9, btn10, btn11, btn12, btn13, 
-            btn14, btn15, btn16, btn17, btn18, btn19, btn20, btn21, btn22, btn23, btn24, btn25,
-            btn26, btn27, btn28, btn29, btn30, btn31];
-
 
 window.onclick = function(event) {                
     for (var i=0; i<modalAll.length; i+=1) {
