@@ -75,13 +75,11 @@ footer {
 }
 
 .modal-body {
-    padding: auto;
     margin-left: 15px;
+    color: black;
 }
 
 .modal-footer {
-    padding: auto;
-    color: black;
     margin-left: 15px;
 }
 
