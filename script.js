@@ -14,7 +14,7 @@ for (let i = 1; i <= 31; i++) {
 }
 
 window.onclick = function(event) {                
-    for (var i=0; i<modalAll.length; i+=1) {
+    for (let i=0; i<modalAll.length; i+=1) {
         if (event.target == modalAll[i]) {
             modalAll[i].style.display = "none";
         }
